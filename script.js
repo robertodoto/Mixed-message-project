@@ -7,21 +7,18 @@ function messageGenerator (first, second, third) {
 
     randomSubject = Math.floor(Math.random()*subject.length);
     randomSub = () => {
-        first = subject;
         subject[randomSubject];
         randomSub.push[randomMessage]
     }; 
 
     randomVerb = Math.floor(Math.random()*verb.length);
     randomVerb = () =>{
-        second = verb;
         verb[randomVerb];
         randomVerb.push[randomMessage]
     };
 
     randomObject = Math.floor(Math.random()*object.length);
     randomObj = () => {
-        third = object;
         randomObj = object[randomObject];
         randomObj.push[randomMessage];
     }
