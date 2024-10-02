@@ -5,21 +5,25 @@ function messageGenerator (first, second, third) {
 
     let randomMessage = [];
 
-    randomIndex = Math.floor(Math.random()*Array.lenght);
+    randomSubject = Math.floor(Math.random()*subject.length);
     randomSub = () => {
         first = subject;
-        subject(randomIndex);
-        randomSub.push(randomMessage)
+        subject(randomSubject);
+        randomSub.push[randomMessage]
     }; 
+
+    randomVerb = Math.floor(Math.random()*verb.length);
     randomVerb = () =>{
         second = verb;
-        verb(randomIndex);
-        randomVerb.push(randomMessage)
+        verb(randomVerb);
+        randomVerb.push[randomMessage]
     };
+
+    randomObject = Math.floor(Math.random()*object.length);
     randomObj = () => {
         third = object;
-        randomObj = object(randomIndex);
-        randomObj.push(randomMessage);
+        randomObj = object(randomObject);
+        randomObj.push[randomMessage];
     }
 
     return randomMessage.join('');
