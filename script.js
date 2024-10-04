@@ -1,27 +1,21 @@
-function messageGenerator (first, second, third) {
+function messageGenerator () {
     const subject = ['I will', 'you will', 'he will', 'she will', 'we will', 'they will'];
     const verb = ['want', 'take', 'see', 'have', 'bring', 'eat', 'drink', 'love', 'burn', 'kill'];
-    const object = ['a horse', 'a new guitar', 'your partner', 'your job', 'a house', ' an ice-cream', 'sex', 'boobs', 'a penguin'];
+    const object = ['a horse', 'a new guitar', 'your partner', 'your job', 'a house', ' an ice-cream', 'a penguin'];
 
     let randomMessage = [];
 
-    randomSubject = Math.floor(Math.random()*subject.length);
-    randomSub = () => {
-        subject[randomSubject];
-        randomSub.push[randomMessage]
-    }; 
+    const randomSubject = Math.floor(Math.random()*subject.length);
+    const randomSub = subject[randomSubject];
+    let randomIndexSub = randomMessage.push(randomSub + ' ');
 
-    randomVerb = Math.floor(Math.random()*verb.length);
-    randomVerb = () =>{
-        verb[randomVerb];
-        randomVerb.push[randomMessage]
-    };
+     const randomVrb = Math.floor(Math.random()*verb.length);
+     const randomVerb = verb[randomVrb];
+     let randomIndexVerb = randomMessage.push(randomVerb + ' ');
 
-    randomObject = Math.floor(Math.random()*object.length);
-    randomObj = () => {
-        randomObj = object[randomObject];
-        randomObj.push[randomMessage];
-    }
+    const randomObject = Math.floor(Math.random()*object.length);
+    const randomObj = object[randomObject];
+    let randomIndexObj = randomMessage.push(randomObj);
 
     return randomMessage.join('');
    
