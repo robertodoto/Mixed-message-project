@@ -20,6 +20,7 @@ function messageGenerator () {
     return randomMessage.join('');
    
 }
-
+const button = document.getElementById('button')
+button.addEventListener("click", messageGenerator())
 
 console.log(messageGenerator());
